@@ -110,7 +110,7 @@ header{
  }
  /* Main content */
  .bg-color-grey{
-    background-color: #F6F6F6;
+    background-color:#E6E6E6;
 }
 .content-img{
     width: 100%;
@@ -294,4 +294,31 @@ header{
 .footer-section__flex{
     justify-content:space-between;
     align-items: center;
+}
+
+/* Wave background image */
+
+.wave-bg-img{
+    background-image: url(../img/wave.svg);
+}
+
+.wave{
+    aspect-ratio: 8.4;
+    width: 100%;
+    filter: opacity(0.1);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave-2{
+    aspect-ratio: 8.4;
+    width: 100%;
+    height: 100px;
+    transform: scaleY(-1);
+    filter: opacity(0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
