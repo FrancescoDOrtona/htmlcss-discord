@@ -52,7 +52,6 @@ a{
 
 .col-4{
     flex-basis: calc(100% / 3);
-    background-color: pink;
 }
 
 .col-6{
@@ -61,7 +60,6 @@ a{
 
 .col-8{
     flex-basis: calc(100% / 12 * 8);
-    background-color: lightskyblue;
 }
 
 .col-10{
