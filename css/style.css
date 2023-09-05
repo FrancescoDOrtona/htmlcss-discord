@@ -260,6 +260,17 @@ header{
     height: 16px;
     margin-right: 8px;
  }
+.footer__icons{
+    padding: 10px;
+    cursor: pointer;
+}
+ .footer__icons img{
+    width: 20px;
+ }
+
+ .footer__icons-space{
+    margin-right: 15px;
+ }
 
  .footer-section{
     padding-top: 15px;
