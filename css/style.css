@@ -220,17 +220,50 @@ header{
  /* Footer */
  footer{
     background-color: #23272A;
+    padding: 80px 64px;
+ }
+
+ .footer__title{
+    font-size: 30px;
+    padding-left: 10px;
+ }
+ .color-violet{
+    color: #6276B7;
+    font-weight: bold;
+ }
+
+ li>a{
+    font-size: 13px;
+    line-height: 210%;
  }
 
  .footer__1{
-    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 25px;
+ }
+
+ .footer__language{
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+ }
+ 
+ .footer__ita{
+    margin-right: 8px;
+ }
+ .footer__flag{
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
  }
 
  .footer-section{
     padding-top: 15px;
     border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
  }
 
 .col-1{
