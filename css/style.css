@@ -47,15 +47,15 @@ a{
 }
 
 .col-3{
-    flex-basis: calc(100% / 4);
+    flex-basis: calc(100% / 12 * 3);
 }
 
 .col-4{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 12 * 4);
 }
 
 .col-6{
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 12 *6);
 }
 
 .col-8{
@@ -68,8 +68,6 @@ a{
 
 .col-12{
     flex-basis: 100%;
-    background-color: green;
-    min-height: 600px;
 }
 /* header */
 header{
@@ -152,8 +150,9 @@ header{
     font-weight: 300;
  }
 
- .hero__button img{
+ .button img{
     width: 15px;
+    margin-right: 10px;
  }
 
  .hero__button-1{
@@ -178,7 +177,7 @@ header{
  }
 
 
- .col-4>h2{
+ h2{
     font-size: 40px;
  }
 
@@ -187,10 +186,37 @@ header{
     font-size: 15px;
  }
 
- h2, .description{
+ .col-4> h2, .description{
     text-align:left;
     padding: 20px;
  }
+
+ .adventure{
+    text-align: center;
+ }
+
+ .invert{
+    filter: invert(100%);
+ }
+ .adventure__title{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 40px;
+ }
+ .adventure__button{
+    background-color: #8EA1E1;
+    color: white;
+    font-size: 18px;
+ }
+
+ .adventure__button-space{
+    padding: 20px;
+ }
+
 
  /* Footer */
  footer{
