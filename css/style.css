@@ -43,7 +43,6 @@ a{
 
 .col-2{
     flex-basis: calc(100% / 6);
-    background-color: cornflowerblue;
 }
 
 .col-3{
@@ -220,7 +219,7 @@ header{
 
  /* Footer */
  footer{
-    background-color: rgb(33, 33, 33);
+    background-color: #23272A;
  }
 
  .footer__1{
