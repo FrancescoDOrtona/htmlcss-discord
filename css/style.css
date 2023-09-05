@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* row and col */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: calc(100% / 6);
+    background-color: cornflowerblue;
+}
+
+.col-3{
+    flex-basis: calc(100% / 4);
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+    background-color: pink;
+}
+
+.col-6{
+    flex-basis: calc(100% / 2);
+}
+
+.col-8{
+    flex-basis: calc(100% / 1.5);
+    background-color: lightskyblue;
+}
+
+.col-10{
+    flex-basis: calc(100% / 1.333);
+    min-height: 300px;
+    background-color: violet;
+}
+
+.col-12{
+    flex-basis: 100%;
+    background-color: green;
+    min-height: 600px;
+}
+/* header */
+header{
+    background-color: aqua;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar__content{
+    background-color: orange;
+    min-height: 50px;
+    padding: 10px;
+    align-items: center
+}
+.nav-bar__logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-bar__login{
+    display: flex;
+    justify-content: flex-end;
+ }
+ .nav-bar__links{
+    display: flex;
+    justify-content: space-evenly;;
+ }
+ /* Main content */
+ .bg-color-grey{
+    background-color: lightgray;
+ }
+
+ .bg-color-blue{
+    background-color: blue;
+ }
+
+ .main-section-1{
+    justify-content: center;
+ }
+
+ .main-section-3 .col-4{
+    order: -1;
+ }
+
+ [class^='main-section']{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .col-4, .col-8, .col-2{
+    min-height: 400px;
+ }
+
+ /* Footer */
+ footer{
+    background-color: rgb(33, 33, 33);
+ }
+
+ .footer__1{
+    padding-top: 5px;
+    padding-bottom: 25px;
+ }
+
+ .footer-section{
+    padding-top: 15px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+ }
+
+.col-1{
+    display: flex;
+    justify-content: center;
+    flex-basis: calc(100% / 12);
+    background-color: pink;
+    min-height: 30px;
+    padding: 5px;
+}
+
+
+.footer-section__flex{
+    justify-content:space-between;
+    align-items: center;
+    background-color: aqua;
+    min-height: 60px;
+}
+
+/*  debug */
+
+/* .debug .container{
+    border: 2px solid black;   
+}
+
+.debug .row{
+    border: 2px solid red;
+}
+
+.debug [class^='col-']{
+    border: 1px solid green;
+} */
