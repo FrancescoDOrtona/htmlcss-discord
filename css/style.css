@@ -66,7 +66,7 @@ a{
 
 .col-10{
     flex-basis: calc(100% / 1.333);
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .col-12{
@@ -101,12 +101,14 @@ header{
 
  .button{
      border-radius: 28px;
-     padding: 10px 20px;
+     padding: 15px 30px;
     }
     
 .login-button{
+        padding:10px 20px;
         color: black;
-        background-color: white;     
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px black;     
 }
 
  .nav-bar__links{
@@ -126,8 +128,8 @@ header{
 
 .hero__main{
    justify-content: center;
-   padding-top: 60px;
-   padding-bottom: 40px;
+   padding-top: 100px;
+   padding-bottom: 30px;
 }
 
  .hero__content{
@@ -146,15 +148,24 @@ header{
  }
 
  .hero__button{
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 30px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 300;
+ }
+
+ .hero__button img{
+    width: 15px;
  }
 
  .hero__button-1{
     background-color: white;
     color: black;
+    box-shadow: 0px 0px 10px 0px black;
+ }
+
+ .hero__button-2{
+    background-color: #23272A;
  }
 
  /* Section 2 */
