@@ -272,6 +272,9 @@ header{
     margin-right: 15px;
  }
 
+ .footer__button{
+    
+ }
  .footer-section{
     padding-top: 15px;
     border-top: 2px solid gray;
@@ -281,7 +284,6 @@ header{
     display: flex;
     justify-content: center;
     flex-basis: calc(100% / 12);
-    background-color: pink;
     min-height: 30px;
     padding: 5px;
 }
@@ -290,7 +292,6 @@ header{
 .footer-section__flex{
     justify-content:space-between;
     align-items: center;
-    background-color: aqua;
     min-height: 60px;
 }
 
