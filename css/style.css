@@ -272,18 +272,21 @@ header{
  }
 
  .footer__button{
-
+    border-radius: 28px;
+    padding: 8px 16px;
+    background-color: #8EA1E1;
+    color: white;
+    font-size: 13px;
  }
- .footer-section{
-    padding-top: 15px;
-    border-top: 2px solid gray;
+ .footer__border{
+    padding-top: 20px;
+    border-top: 2px solid #333C4F;
  }
 
 .col-1{
     display: flex;
     justify-content: center;
     flex-basis: calc(100% / 12);
-    min-height: 30px;
     padding: 5px;
 }
 
@@ -291,19 +294,4 @@ header{
 .footer-section__flex{
     justify-content:space-between;
     align-items: center;
-    min-height: 60px;
 }
-
-/*  debug */
-
-/* .debug .container{
-    border: 2px solid black;   
-}
-
-.debug .row{
-    border: 2px solid red;
-}
-
-.debug [class^='col-']{
-    border: 1px solid green;
-} */
