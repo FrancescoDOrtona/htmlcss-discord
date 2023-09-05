@@ -115,7 +115,7 @@ header{
  }
  /* Main content */
  .bg-color-grey{
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 .content-img{
     width: 100%;
@@ -177,6 +177,7 @@ header{
 
  [class^='main-section']{
     padding: 150px 0;
+    align-items: center;
  }
 
  .col-4, .col-8, .col-2{
