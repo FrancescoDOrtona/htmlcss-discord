@@ -63,8 +63,7 @@ a{
 }
 
 .col-10{
-    flex-basis: calc(100% / 1.333);
-    min-height: 400px;
+    flex-basis: calc(100% / 12 * 10);
 }
 
 .col-12{
@@ -129,10 +128,8 @@ header{
 
 .hero__main{
    justify-content: center;
-   padding-top: 100px;
-   padding-bottom: 30px;
+   padding: 120px;
 }
-
  .hero__content{
     text-align: center;
     color: white;
@@ -180,9 +177,6 @@ header{
     align-items: center;
  }
 
- .col-4, .col-8, .col-2{
-    min-height: 400px;
- }
 
  .col-4>h2{
     font-size: 40px;
