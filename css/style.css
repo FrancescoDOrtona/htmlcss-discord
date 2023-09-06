@@ -95,6 +95,8 @@ header{
  .button{
      border-radius: 28px;
      padding: 15px 30px;
+     white-space: nowrap;
+     box-shadow: 0px 0px 10px 0px black;
     }
     
 .login-button{
@@ -120,6 +122,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center;
  }
 
 .hero__main{
@@ -142,7 +145,8 @@ header{
  }
 
  .hero__button{
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     padding: 30px;
     font-size: 20px;
     font-weight: 300;
@@ -156,7 +160,6 @@ header{
  .hero__button-1{
     background-color: white;
     color: black;
-    box-shadow: 0px 0px 10px 0px black;
  }
 
  .hero__button-2{
